@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+#btn {
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#btn:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+#Numbers {
+  display: inline-block;
+}
